@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KLW Car Seat Cover Catalogue</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="branding">
+        <img src="images/logo.svg" alt="KLW logo" class="brand-logo" />
+        <div>
+          <h1>KLW Car Seat Covers</h1>
+          <p>Custom interiors for every ride</p>
+        </div>
+      </div>
+      <button id="addBrandBtn" class="primary-btn">Add Brand</button>
+    </header>
+
+    <main class="app-main">
+      <aside class="brand-list-panel">
+        <div class="panel-header">
+          <h2>Car Brands in India</h2>
+          <div class="search-box">
+            <input
+              type="search"
+              id="brandSearch"
+              placeholder="Search brands"
+              aria-label="Search brands"
+            />
+          </div>
+        </div>
+        <ul id="brandList" class="brand-list" aria-live="polite"></ul>
+      </aside>
+
+      <section class="model-details-panel" aria-live="polite">
+        <div class="empty-state">
+          <h2>Select a brand</h2>
+          <p>
+            Browse the catalogue to explore seat cover work tailored for popular
+            cars in India.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <template id="brandListItemTemplate">
+      <li class="brand-item">
+        <button class="brand-button">
+          <img src="" alt="" class="brand-icon" />
+          <span class="brand-name"></span>
+        </button>
+        <div class="brand-actions">
+          <button class="icon-btn edit-brand" title="Edit brand" aria-label="Edit brand">✏️</button>
+          <button class="icon-btn delete-brand" title="Delete brand" aria-label="Delete brand">🗑️</button>
+        </div>
+      </li>
+    </template>
+
+    <template id="modelCardTemplate">
+      <article class="model-card">
+        <img src="" alt="" class="model-photo" />
+        <div class="model-content">
+          <header>
+            <h3 class="model-name"></h3>
+            <p class="model-seats"></p>
+          </header>
+          <div class="model-actions">
+            <button class="icon-btn edit-model" title="Edit model" aria-label="Edit model">✏️</button>
+            <button class="icon-btn delete-model" title="Delete model" aria-label="Delete model">🗑️</button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <template id="brandDetailsTemplate">
+      <div class="brand-details">
+        <header class="brand-details-header">
+          <div class="brand-meta">
+            <img src="" alt="" class="brand-details-logo" />
+            <div>
+              <h2 class="brand-details-name"></h2>
+              <p class="brand-model-count"></p>
+            </div>
+          </div>
+          <div class="brand-details-actions">
+            <button class="secondary-btn add-model-btn" type="button">
+              Add Model
+            </button>
+            <button class="icon-btn edit-brand" type="button" title="Edit brand" aria-label="Edit brand">
+              ✏️
+            </button>
+            <button class="icon-btn delete-brand" type="button" title="Delete brand" aria-label="Delete brand">
+              🗑️
+            </button>
+          </div>
+        </header>
+        <div class="model-grid"></div>
+      </div>
+    </template>
+
+    <template id="modelFieldTemplate">
+      <div class="model-field-group">
+        <div class="form-row">
+          <label class="form-label">Model name</label>
+          <input type="text" name="modelName" required />
+        </div>
+        <div class="form-row inline">
+          <div>
+            <label class="form-label">Seats</label>
+            <input type="number" min="1" max="10" name="modelSeats" required />
+          </div>
+          <div>
+            <label class="form-label">Interior image URL</label>
+            <input type="url" name="modelImage" required />
+          </div>
+        </div>
+        <div class="form-row actions">
+          <button type="button" class="icon-btn remove-model-field" title="Remove model" aria-label="Remove model">🗑️</button>
+        </div>
+      </div>
+    </template>
+
+    <section class="modal-backdrop hidden" id="modalBackdrop" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <header class="modal-header">
+          <h2 id="modalTitle">Add Brand</h2>
+          <button class="icon-btn close-modal" id="closeModalBtn" aria-label="Close dialog">✖️</button>
+        </header>
+        <form id="modalForm" novalidate>
+          <fieldset class="modal-fieldset" id="brandFieldset">
+            <legend class="sr-only">Brand details</legend>
+            <label class="form-label" for="brandNameInput">Brand name</label>
+            <input id="brandNameInput" name="brandName" type="text" required />
+            <label class="form-label" for="brandLogoInput">Logo URL</label>
+            <input id="brandLogoInput" name="brandLogo" type="url" required />
+          </fieldset>
+
+          <fieldset class="modal-fieldset" id="modelsFieldset">
+            <legend>Models</legend>
+            <div id="modelFields"></div>
+            <button type="button" class="secondary-btn" id="addModelFieldBtn">
+              Add Model
+            </button>
+          </fieldset>
+
+          <footer class="modal-footer">
+            <button type="submit" class="primary-btn">Save</button>
+            <button type="button" class="secondary-btn" id="cancelModalBtn">
+              Cancel
+            </button>
+          </footer>
+          <p class="form-error" id="formError" role="alert"></p>
+        </form>
+      </div>
+    </section>
+
+    <script src="assets/js/app.js" type="module"></script>
+  </body>
+</html>
+

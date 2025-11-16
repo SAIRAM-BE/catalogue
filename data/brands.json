@@ -1,0 +1,243 @@
+[
+  {
+    "id": "brand-maruti-suzuki",
+    "name": "Maruti Suzuki",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Maruti_Suzuki_Logo.svg",
+    "website": "https://www.marutisuzuki.com/",
+    "logoSource": "https://en.wikipedia.org/wiki/Maruti_Suzuki",
+    "models": [
+      {
+        "id": "model-maruti-swift",
+        "name": "Swift",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/116029/swift-interior0.jpeg",
+        "source": "https://www.marutisuzuki.com/swift"
+      },
+      {
+        "id": "model-maruti-ertiga",
+        "name": "Ertiga",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44745/ertiga-interior1.jpeg",
+        "source": "https://www.marutisuzuki.com/ertiga"
+      },
+      {
+        "id": "model-maruti-baleno",
+        "name": "Baleno",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/118177/baleno-interior0.jpeg",
+        "source": "https://www.nexaexperience.com/baleno"
+      }
+    ]
+  },
+  {
+    "id": "brand-hyundai",
+    "name": "Hyundai",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Hyundai_logo.svg",
+    "website": "https://www.hyundai.com/in/en",
+    "logoSource": "https://en.wikipedia.org/wiki/Hyundai_Motor_Company",
+    "models": [
+      {
+        "id": "model-hyundai-creta",
+        "name": "Creta",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/39101/creta-interior0.jpeg",
+        "source": "https://www.hyundai.com/in/en/find-a-car/creta/highlights"
+      },
+      {
+        "id": "model-hyundai-alcazar",
+        "name": "Alcazar",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/104939/alcazar-interior0.jpeg",
+        "source": "https://www.hyundai.com/in/en/find-a-car/alcazar/highlights"
+      },
+      {
+        "id": "model-hyundai-i20",
+        "name": "i20",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/110335/i20-interior0.jpeg",
+        "source": "https://www.hyundai.com/in/en/find-a-car/i20/highlights"
+      }
+    ]
+  },
+  {
+    "id": "brand-tata",
+    "name": "Tata Motors",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Tata_logo.svg",
+    "website": "https://cars.tatamotors.com/",
+    "logoSource": "https://en.wikipedia.org/wiki/Tata_Motors",
+    "models": [
+      {
+        "id": "model-tata-nexon",
+        "name": "Nexon",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/108795/nexon-interior0.jpeg",
+        "source": "https://cars.tatamotors.com/suv/nexon"
+      },
+      {
+        "id": "model-tata-harrier",
+        "name": "Harrier",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/41549/harrier-interior0.jpeg",
+        "source": "https://cars.tatamotors.com/suv/harrier"
+      },
+      {
+        "id": "model-tata-safari",
+        "name": "Safari",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/41550/safari-interior0.jpeg",
+        "source": "https://cars.tatamotors.com/suv/safari"
+      }
+    ]
+  },
+  {
+    "id": "brand-mahindra",
+    "name": "Mahindra",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Mahindra_and_Mahindra_logo.svg",
+    "website": "https://auto.mahindra.com/",
+    "logoSource": "https://en.wikipedia.org/wiki/Mahindra_%26_Mahindra",
+    "models": [
+      {
+        "id": "model-mahindra-xuv700",
+        "name": "XUV700",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/109877/xuv700-interior0.jpeg",
+        "source": "https://auto.mahindra.com/suv/xuv700"
+      },
+      {
+        "id": "model-mahindra-scorpio-n",
+        "name": "Scorpio-N",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/119743/scorpio-n-interior0.jpeg",
+        "source": "https://auto.mahindra.com/suv/scorpio-n"
+      },
+      {
+        "id": "model-mahindra-thar",
+        "name": "Thar",
+        "seats": 4,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/51726/thar-interior2.jpeg",
+        "source": "https://auto.mahindra.com/suv/thar"
+      }
+    ]
+  },
+  {
+    "id": "brand-kia",
+    "name": "Kia India",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Kia_logo.svg",
+    "website": "https://www.kia.com/in/home.html",
+    "logoSource": "https://en.wikipedia.org/wiki/Kia",
+    "models": [
+      {
+        "id": "model-kia-seltos",
+        "name": "Seltos",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/121841/seltos-interior0.jpeg",
+        "source": "https://www.kia.com/in/our-vehicles/seltos/highlights.html"
+      },
+      {
+        "id": "model-kia-carens",
+        "name": "Carens",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/118441/carens-interior0.jpeg",
+        "source": "https://www.kia.com/in/our-vehicles/carens/highlights.html"
+      },
+      {
+        "id": "model-kia-sonet",
+        "name": "Sonet",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/119623/sonet-interior0.jpeg",
+        "source": "https://www.kia.com/in/our-vehicles/sonet/highlights.html"
+      }
+    ]
+  },
+  {
+    "id": "brand-toyota",
+    "name": "Toyota India",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_logo.svg",
+    "website": "https://www.toyotabharat.com/",
+    "logoSource": "https://en.wikipedia.org/wiki/Toyota",
+    "models": [
+      {
+        "id": "model-toyota-innova-hycross",
+        "name": "Innova Hycross",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/116923/innova-hycross-interior0.jpeg",
+        "source": "https://www.toyotabharat.com/showroom/innova-hycross/"
+      },
+      {
+        "id": "model-toyota-fortuner",
+        "name": "Fortuner",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/42213/fortuner-interior0.jpeg",
+        "source": "https://www.toyotabharat.com/showroom/fortuner/"
+      },
+      {
+        "id": "model-toyota-glanza",
+        "name": "Glanza",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/117533/glanza-interior0.jpeg",
+        "source": "https://www.toyotabharat.com/showroom/glanza/"
+      }
+    ]
+  },
+  {
+    "id": "brand-honda",
+    "name": "Honda Cars India",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda-logo.svg",
+    "website": "https://www.hondacarindia.com/",
+    "logoSource": "https://en.wikipedia.org/wiki/Honda",
+    "models": [
+      {
+        "id": "model-honda-city",
+        "name": "City",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/116943/city-interior0.jpeg",
+        "source": "https://www.hondacarindia.com/honda-city"
+      },
+      {
+        "id": "model-honda-elevate",
+        "name": "Elevate",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/116951/elevate-interior0.jpeg",
+        "source": "https://www.hondacarindia.com/elevate"
+      },
+      {
+        "id": "model-honda-amaze",
+        "name": "Amaze",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/105327/amaze-interior0.jpeg",
+        "source": "https://www.hondacarindia.com/honda-amaze"
+      }
+    ]
+  },
+  {
+    "id": "brand-skoda",
+    "name": "Skoda Auto India",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Skoda_logo_2016.svg",
+    "website": "https://www.skoda-auto.co.in/",
+    "logoSource": "https://en.wikipedia.org/wiki/%C5%A0koda_Auto",
+    "models": [
+      {
+        "id": "model-skoda-kushaq",
+        "name": "Kushaq",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/41395/kushaq-interior0.jpeg",
+        "source": "https://www.skoda-auto.co.in/models/kushaq"
+      },
+      {
+        "id": "model-skoda-slavia",
+        "name": "Slavia",
+        "seats": 5,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/41607/slavia-interior0.jpeg",
+        "source": "https://www.skoda-auto.co.in/models/slavia"
+      },
+      {
+        "id": "model-skoda-kodiaq",
+        "name": "Kodiaq",
+        "seats": 7,
+        "interiorImage": "https://imgd.aeplcdn.com/664x374/n/cw/ec/121609/kodiaq-interior0.jpeg",
+        "source": "https://www.skoda-auto.co.in/models/kodiaq"
+      }
+    ]
+  }
+]
+
